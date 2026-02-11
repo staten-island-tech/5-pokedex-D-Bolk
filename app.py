@@ -2,15 +2,12 @@ import json
 pokedex = open("./pokedex.json", encoding="utf8")
 pokedex = json.load(pokedex)
 data=json.load(pokedex)
-import json
+
 items = open("./items.json", encoding="utf8")
 items=json.load(items)
-import json
+
 moves = open("./moves.json",encoding="utf8")
 moves=json.load(moves)
-import json
-types = open("./types.json",encoding="utf8")
-types=json.load(types)
 
 
 
